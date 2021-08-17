@@ -15,8 +15,8 @@ class WallServiceTest {
                 "Ivanov",true,"edit"),8))
 
         val result = post.id
-        assertNotEquals(0, result)
-        //assertEquals(0, result)
+        //assertNotEquals(0, result)
+        assertEquals(1, result)
 
     }
 
